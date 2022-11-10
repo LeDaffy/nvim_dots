@@ -20,3 +20,8 @@ setlocal mp=make
 
 nnoremap ;c :wa<Enter>:make<Enter>
 nnoremap ;t :tabnew<Enter>:vsplit<Enter>
+
+
+lua <<EOF
+  require'lspconfig'.clangd.setup{}
+EOF
