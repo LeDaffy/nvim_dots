@@ -1,2 +1,1 @@
-
-vim.lsp.enable('rust_analyzer')
+print("hello rust")

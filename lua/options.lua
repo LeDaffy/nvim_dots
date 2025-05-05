@@ -1,5 +1,5 @@
 -- Set colorscheme
-vim.cmd("colorscheme catppuccin-mocha")
+vim.cmd("colorscheme unokai")
 vim.cmd("let netrw_liststyle=3")
 
 -- Line folding
@@ -25,6 +25,5 @@ vim.o.shiftwidth     = 4
 
 -- Misc
 vim.o.linebreak      = true
-vim.o.colorcolumn    = 80
 vim.o.ignorecase     = true
 vim.o.scrolloff      = 5

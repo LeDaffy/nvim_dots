@@ -25,3 +25,6 @@ vim.keymap.set("v", "<leader>p", "\"_dP", {noremap = true, silent = true, nowait
 -- Netrw
 vim.keymap.set("", "", ":Lexplore<CR>", {noremap = true, silent = true, nowait = true})
 vim.keymap.set("", "", ":Explore<CR>", {noremap = true, silent = true, nowait = true})
+
+-- LSP
+vim.keymap.set("n", "<leader>a", ":lua vim.lsp.buf.code_action()<CR>", {noremap = true, silent = true, nowait = true})
